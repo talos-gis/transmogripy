@@ -5,10 +5,10 @@ from io import StringIO
 import re
 import warnings
 
-from transmogripy.rule import LineComponents, Final
-from transmogripy.rules import get_rules
-from transmogripy.filter_multiline_comments import filter_multiline_comments
-from transmogripy.__util import *
+from .rule import LineComponents, Final
+from .rules import get_rules
+from .filter_multiline_comments import filter_multiline_comments
+from .__util import *
 
 
 class ResultBehaviour(Enum):

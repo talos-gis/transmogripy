@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 
 import re
 
-from transmogripy.__util import *
+from .__util import *
 
 
 class Final(str):

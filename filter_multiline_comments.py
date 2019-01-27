@@ -4,7 +4,7 @@ from enum import Enum
 from collections import namedtuple
 import re
 
-from transmogripy.__util import *
+from .__util import *
 
 
 class ScanMode(Enum):

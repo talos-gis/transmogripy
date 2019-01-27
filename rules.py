@@ -2,8 +2,8 @@ from typing import Iterable
 
 from typing import NamedTuple
 
-from transmogripy.rule import Rule, ReReplaceRule, NotSupportedRule, ReReplaceFinalRule, HaltRule, EarlyReturnRule
-from transmogripy.segment import PreWord, PostWord, Segment
+from .rule import Rule, ReReplaceRule, NotSupportedRule, ReReplaceFinalRule, HaltRule, EarlyReturnRule
+from .segment import PreWord, PostWord, Segment
 
 
 class RuleSet(NamedTuple):
