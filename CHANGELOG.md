@@ -1,4 +1,7 @@
 # Transmorgopy Changelog
+## 1.1.9- 2019-09-18
+### Changed
+* added whitespace after assignment
 ## 1.1.8- 2018-11-12
 ### Added
 * improved the early return detection mechanism and incorporated in standard rules

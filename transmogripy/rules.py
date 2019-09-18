@@ -106,7 +106,7 @@ def get_rules(result_as_var: bool, allow_numpy=True, disclose=True, pre_raw_part
 
         ReReplaceRule('(?<![<>:!])=', '=='),
 
-        ReReplaceRule('(?P<var_name>[^\s]+)\s*:=\s*', '\g<var_name> ='),
+        ReReplaceRule('(?P<var_name>[^\s]+)\s*:=\s*', '\g<var_name> = '),
 
         ReReplaceRule('<>', '!='),
 
