@@ -1,6 +1,6 @@
 from typing import Dict, ClassVar
 
-from .__data__ import __version__
+from transmogripy import __version__
 
 from functools import partial
 
