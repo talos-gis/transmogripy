@@ -1,7 +1,7 @@
 from setuptools import setup
 
 from transmogripy import (
-    __pacakge_name__,
+    __package_name__,
     __author__,
     __author_email__,
     __license__,
@@ -24,7 +24,7 @@ __readme_type__ = 'text/markdown'
 packages = ['transmogripy']
 
 setup(
-    name=__pacakge_name__,
+    name=__package_name__,
     version=__version__,
     author=__author__,
     author_email=__author_email__,

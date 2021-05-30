@@ -1,4 +1,4 @@
-__pacakge_name__ = 'transmogripy'
+__package_name__ = 'transmogripy'
 __author__ = 'Ben Avrahami'
 __author_email__ = 'avrahami.ben@gmail.com'
 __maintainer__ = 'Idan Miara'
